@@ -1,0 +1,26 @@
+﻿
+<h1 class="text-center my-5 text-uppercase">thông tin học viên</h1>
+<div class="col-12">
+    <<div class="d-flex flex-row justify-content-center gap-5">
+        <div class="col-4 px-12 border rounded-3 d-flex flex-column justify-content-center shadow p-3 mb-5">
+            <form action="/Home/Index" method="post">
+                <div class="mb-3">
+                    <label for="Hoten" class="form-label">Họ tên</label>
+                    <input type="text" class="form-control" id="Hoten" name="Hoten" value="@ViewData["Hoten"]" aria-describedby="text">
+                </div>
+                <div class="mb-3">
+                    <label for="NgaySinh" class="form-label">Ngày sinh</label>
+                    <input type="date" class="form-control" id="NgaySinh" name="NgaySinh" value="@ViewData["NgaySinh"]" aria-describedby="text">
+                </div>
+                <div class="mb-3">
+                    <label for="Email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="Email" name="Email" value="@ViewData["Email"]" aria-describedby="text">
+                </div>
+                <div class="mb-3">
+                    <label for="SDT" class="form-label">Số điện thoại</label>
+                    <input type="text" class="form-control" id="SDT" name="SDT" value="@ViewData["SDT"]" aria-describedby="text">
+                </div>
+                
+                
+            </form>
+
